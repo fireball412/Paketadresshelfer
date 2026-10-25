@@ -1,0 +1,9 @@
+:host { display: block; margin: 16px 0; color: #222; font: 14px/1.45 Arial, sans-serif; }
+* { box-sizing: border-box; }
+.panel { padding: 16px; border: 1px solid #b8c9df; border-top: 4px solid #245a91; background: #f1f6fc; border-radius: 6px; }
+label { display: block; font-weight: bold; margin-bottom: 8px; }
+textarea { display: block; width: 100%; min-height: 100px; padding: 9px; border: 1px solid #777; border-radius: 3px; font: inherit; background: white; color: #222; }
+button { margin-top: 10px; padding: 10px 16px; border: 0; border-radius: 3px; background: #245a91; color: white; cursor: pointer; font: bold 14px Arial; }
+button:focus-visible, textarea:focus-visible { outline: 3px solid #1559b7; outline-offset: 2px; }
+p { margin: 8px 0 0; }
+[role=status] { white-space: pre-wrap; }

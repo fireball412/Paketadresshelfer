@@ -1,0 +1,7 @@
+# Private recordings must not enter future commits.
+*.mp4
+*.mov
+*.webm
+.env
+.env.*
+node_modules/
